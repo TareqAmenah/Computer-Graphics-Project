@@ -1,0 +1,34 @@
+﻿Build started 02/01/2019 00:25:26.
+     1>Project "C:\Users\TareQ\Documents\GitHub\Computer-Graphics-Project\3d model\3d model\3d model.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\TareQ\Documents\GitHub\Computer-Graphics-Project\3d model\3d model\lib\glfw-3.2.1.bin.WIN32\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt glad.c
+         glad.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\TareQ\Documents\GitHub\Computer-Graphics-Project\3d model\3d model\lib\glfw-3.2.1.bin.WIN32\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp stb_image.cpp
+         Source.cpp
+     1>Source.cpp(248): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(327): warning C4305: '+=': truncation from 'double' to 'float'
+     1>Source.cpp(337): warning C4305: '-=': truncation from 'double' to 'float'
+     1>Source.cpp(340): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(386): warning C4305: '+=': truncation from 'double' to 'float'
+     1>Source.cpp(387): warning C4305: '-=': truncation from 'double' to 'float'
+     1>Source.cpp(481): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(482): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(486): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(487): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(489): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(490): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(499): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         stb_image.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\TareQ\Documents\GitHub\Computer-Graphics-Project\3d model\Release\3d model.exe" /NOLOGO /LIBPATH:"C:\Users\TareQ\Documents\GitHub\Computer-Graphics-Project\3d model\3d model\lib\glfw-3.2.1.bin.WIN32\lib-vc2015" glfw3.lib opengl32.lib assimp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\TareQ\Documents\GitHub\Computer-Graphics-Project\3d model\Release\3d model.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\TareQ\Documents\GitHub\Computer-Graphics-Project\3d model\Release\3d model.lib" /MACHINE:X86 /SAFESEH Release\glad.obj
+         Release\Source.obj
+         Release\stb_image.obj
+         Generating code
+         All 944 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         3d model.vcxproj -> C:\Users\TareQ\Documents\GitHub\Computer-Graphics-Project\3d model\Release\3d model.exe
+     1>Done Building Project "C:\Users\TareQ\Documents\GitHub\Computer-Graphics-Project\3d model\3d model\3d model.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.32

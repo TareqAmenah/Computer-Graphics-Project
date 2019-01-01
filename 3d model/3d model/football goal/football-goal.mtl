@@ -1,0 +1,8 @@
+# Exported from 3D Builder
+
+newmtl Mat_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Metal_baseColor_17832851910588591680.png
+
+newmtl Material_129_0
+Kd 0.790590 0.790590 0.790590
